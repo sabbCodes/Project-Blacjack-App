@@ -254,7 +254,7 @@ function moveFiveCard(){
 
 function moveSixCard(){
     sixCard.top = -220 + "px";
-    sixCard.left = 25  + "%";
+    sixCard.left = 35  + "%";
 }
 
 function moveSevenCard(){
