@@ -1,0 +1,146 @@
+body{
+    background-image: url("table.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding: 0;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#logo{
+    height: 70px;
+    width: 70px;
+}
+
+h1{
+    color: gold;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: gold;
+    color: #016f32;
+    font-weight: bolder;
+    width: 150px;
+    border: none;
+    padding: 5px 0;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+#caption{
+    font-style: italic;
+}
+
+img{
+    border-radius: 3px;
+    height: 200px;
+    width: 100px;
+    border: 2px solid skyblue;
+    margin-left: 5px;
+}
+
+.stage{
+    border: 2px solid skyblue;
+    height: 216px;
+    width: auto;
+    margin: 8px auto;
+    border-radius: 3px;
+}
+
+.cards{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#ace{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#two{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+
+#three{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+}
+
+#four{
+    position: absolute;
+    top: 120px;
+    left: 50%;
+}
+
+#five{
+    position: absolute;
+    top: 160px;
+    left: 50%;
+}
+
+#six{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+}
+
+#seven{
+    position: absolute;
+    top: 240px;
+    left: 50%;
+}
+
+#eight{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+}
+
+#nine{
+    position: absolute;
+    top: 320px;
+    left: 50%;
+}
+
+#ten{
+    position: absolute;
+    top: 360px;
+    left: 50%;
+}
+
+#jack{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+
+#King{
+    position: absolute;
+    top: 440px;
+    left: 50%;
+}
+
+#queen{
+    position: absolute;
+    top: 480px;
+    left: 50%;
+}
